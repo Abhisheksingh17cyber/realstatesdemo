@@ -1,6 +1,6 @@
 {
   "version": 2,
-  // Removed 'builds' to allow Vercel dashboard settings to apply
+  // No 'builds' property: Vercel dashboard settings will apply
   "rewrites": [
     { "source": "/(.*)", "destination": "/$1" }
   ]
